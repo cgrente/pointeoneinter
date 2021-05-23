@@ -1,0 +1,13 @@
+<div class="card-container">  
+    <form (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+        <label class="card card-small left" tabindex="0" for="files">
+            <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="54" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            <input class="hidden" type="file" id="files" (change)="fileChange($event)" multiple />
+            <span>{{upload_txt}}</span>
+        </label>
+        <label class="card card-small left" tabindex="0" for="submit">
+        <input class="hidden" id="submit" type="submit" value="Send">
+        <span>Send</span>
+        </label>
+    </form>
+</div>

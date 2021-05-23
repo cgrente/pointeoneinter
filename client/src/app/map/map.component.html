@@ -1,0 +1,48 @@
+<button (click)="getBeaconData()" >Update Map</button><span>*update the map after you sent the two files</span>
+<br /><br />
+<div class="map" id="map" class="match_parent">
+    <div class='beacon_info'>
+        <div><strong>Survey id:</strong> {{survey_id}}</div>
+        <div><strong>Beacon id:</strong> {{beacon_id}}</div>
+        <div><strong>latitude:</strong> {{latitude}}</div>
+        <div><strong>longitude:</strong> {{longitude}}</div>
+        <div><strong>x:</strong> {{x}}</div>
+        <div><strong>y:</strong> {{y}}</div>
+        <div><strong>z:</strong> {{z}}</div>
+        <div><strong>x_variance:</strong> {{x_variance}}</div>
+        <div><strong>y_variance:</strong> {{y_variance}}</div>
+        <div><strong>z_variance:</strong> {{z_variance}}</div>
+        <div><strong>variance:</strong> {{variance}}</div>
+        <div><strong>height:</strong> {{height}}</div>
+        <div><strong>Obs used:</strong> {{obs_used}}</div>
+        <div><strong>Obs total:</strong> {{obs_total}}</div>
+        <div><strong>Created at:</strong> {{created_at}}</div>
+        <div><strong>start time:</strong> {{start_time}}</div>
+        <div><strong>end time:</strong> {{end_time}}</div>
+        <div><strong>Source:</strong> {{source}}</div>
+        </div>
+    </div>
+<br />
+<h2 class="center">Informations</h2>
+<div class="global_infos">
+    <div class="infos_left">
+        <h3>Beacon referer</h3>
+        <div><strong>Beacon id:</strong> {{beacon_id_ref}}</div>
+        <div><strong>x:</strong> {{x_ref}}</div>
+        <div><strong>y:</strong> {{y_ref}}</div>
+        <div><strong>z:</strong> {{z_ref}}</div>
+        <div><strong>latitude:</strong> {{latitude_ref}}</div>
+        <div><strong>longitude:</strong> {{longitude_ref}}</div>
+        <div><strong>height:</strong> {{height_ref}}</div>
+    </div>
+    <div class="infos_right">
+        <h3>Stats Surveys results</h3>
+        <div><strong>Beacon id:</strong> {{beacon_id_infos}}</div>
+        <div><strong>Survey completed:</strong> {{survey_complete_count_infos}}</div>
+        <div><strong>Survey error:</strong> {{survey_error_count_infos}}</div>
+        <div><strong>Number opus rapid:</strong> {{opus_rapid_count_infos}}</div>
+        <div><strong>Number opus static:</strong> {{opus_static_count_infos}}</div>
+        <div><strong>Number surveys:</strong> {{number_survey_infos}}</div>
+        <div><strong>Legends:</strong> {{legends}}</div>
+    </div>
+</div>

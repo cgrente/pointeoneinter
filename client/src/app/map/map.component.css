@@ -1,0 +1,42 @@
+.match_parent {
+    height: 72vh;
+    width: 78vw;
+}
+
+.beacon_info {
+    position: absolute;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 20%;
+    border: 2px solid black;
+    font-size: 14px;
+    color: #222;
+    background-color: #fff;
+    border-radius: 3px;
+    z-index:2;
+    opacity: 80%;
+}
+
+.infos_left {
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+
+.infos_right {
+    float: right;
+    margin-right: 6%;
+}
+
+.global_infos {
+    background-color: ghostwhite;
+    width: 98%;
+    padding: 1%;
+    overflow:hidden;/*contain child floats*/
+}
+
+h2.center {
+    text-align: center;
+}
